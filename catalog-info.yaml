@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "kalebs-podinfo-app"
+  annotations:
+    "humanitec.com/orgId": "htc-demo-24"
+    "humanitec.com/appId": "kalebs-podinfo-app"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
